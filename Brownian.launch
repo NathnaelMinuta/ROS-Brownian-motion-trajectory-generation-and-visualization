@@ -1,0 +1,10 @@
+<launch>
+  <!-- Launch the p1_ros node -->
+  <node name="p1" pkg="my_minimal_nodes" type="p1" output="screen" />
+ 
+  <!-- Launch the p2_ros node -->
+  <node name="p2" pkg="my_minimal_nodes" type="p2" output="screen" />
+ 
+  <!-- Launch the s1_ros node -->
+  <node name="s1" pkg="my_minimal_nodes" type="s1" output="screen" />
+</launch>
