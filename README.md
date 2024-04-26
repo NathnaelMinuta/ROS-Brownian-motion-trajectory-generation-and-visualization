@@ -14,3 +14,4 @@ The p1 and p2 nodes acted as publishers, responsible for generating normally dis
 s1 Node:
 
 The s1 node served as a subscriber, subscribing to both topic_p1 and topic_p2 to receive messages from the p1 and p2 nodes. It randomly selected one of the message and updated the Brownian motion trajectory based on the selected message, and visualized the trajectory on the console by printing a sequence.
+![image](https://github.com/NathnaelMinuta/ROS-Brownian-motion-trajectory-generation-and-visualization/assets/127151082/11e68e5c-2691-4f34-92e0-bbd240e7f83e)
